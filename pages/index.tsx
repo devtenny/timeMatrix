@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
+import * as Next from 'next'
+import TestComponent from './TestComponent'
 
-const Home: NextPage = () => {
-  return <div>ddd</div>
+const Home: Next.NextPage = () => {
+  return <TestComponent text="This is text that I use for props. :)" />
 }
 
 export default Home
